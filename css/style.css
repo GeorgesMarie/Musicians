@@ -180,11 +180,44 @@ h5 {
 
 /* - */
 .up-coming {
+	overflow: hidden;
     position: relative;
 }
 .top-left {
-	top: 20%;
+	top: 10%;
 	right: 20%;
     position: absolute;
+}
+.sm-border {
+	width: 2px;
+	height: 30px;
+	background-color: #000;
+}
+.lg-border {
+	width: 2px;
+	height: 100px;
+	background-color: #000;
+}
+.smoke-text {
+	white-space: pre-line;
+}
+/* - */
+
+/* - */
+.separator {
+	width: 100px;
+	height: 2px;
+	background-color: #000;
+}
+.dot {
+	font-size: 8px;
+}
+.time-band {
+	width: 100%;
+	height: 707px;
+	background-image: url("../img/history-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 /* - */

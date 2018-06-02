@@ -42,6 +42,12 @@
 	.swiper-slide {
 		justify-content: space-around !important;
 	}
+	.top-left {
+		left: 10%;
+	}
+	.brittany {
+		font-size: 12px;
+	}
 }
 
 
@@ -72,6 +78,9 @@
 		font-size: 18px;
 	}
 	.radio-active {
+		font-size: 12px;
+	}
+	.brittany {
 		font-size: 12px;
 	}
 }
