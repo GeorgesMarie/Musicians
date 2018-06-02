@@ -1,0 +1,83 @@
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 0px) and (max-width: 576px) { 
+	.dj {
+		height: 80vh;
+	}
+	.details {
+		font-size: 12px;
+		white-space: normal; 
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	.subtitle {
+		font-size: 10px;
+	}
+	.paragraph {
+		white-space: normal;
+	}
+	.btn-hell {
+		width: 30%;
+	}
+	.present {
+		white-space: normal;
+	}
+	.artist {
+		font-size: 18px;
+	}
+	.radio-active {
+		font-size: 12px;
+	}
+	h5 {
+		font-size: 14px;
+		white-space: normal;
+	}
+	.tolman {
+		font-size: 14px;
+		white-space: normal;
+	}
+	.swiper-slide {
+		justify-content: space-around !important;
+	}
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	.dj {
+		height: 80vh;
+	}
+	.details {
+		font-size: 12px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	.subtitle {
+		font-size: 10px;
+	}
+	.paragraph {
+		white-space: normal;
+	}
+	.btn-hell {
+		width: 30%;
+	}
+	.artist {
+		font-size: 18px;
+	}
+	.radio-active {
+		font-size: 12px;
+	}
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}
