@@ -221,3 +221,15 @@ h5 {
 	background-position: center center;
 }
 /* - */
+
+/*  */
+.contact {
+	position: relative;
+	overflow: hidden;
+}
+.top-right {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+/*  */

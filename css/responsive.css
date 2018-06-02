@@ -1,3 +1,16 @@
+@media only screen and (max-width: 320px) {
+	.smoke-text {
+		font-size: 12px;
+		white-space: normal;
+	}
+	.description {
+		font-size: 12px;
+	}
+	.radio-active {
+		font-size: 9px !important;
+	}
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 0px) and (max-width: 576px) { 
 	.dj {
@@ -29,7 +42,7 @@
 		font-size: 18px;
 	}
 	.radio-active {
-		font-size: 12px;
+		font-size: 10px;
 	}
 	h5 {
 		font-size: 14px;
