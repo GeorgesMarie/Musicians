@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- Demo styles -->
   <style>
     html, body {
@@ -61,28 +61,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item text-uppercase active">
-              <a class="nav-link" href="#">about <span class="sr-only">(current)</span></a>
+              <a class="nav-link js-scrollTo" href="#about">about <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item text-uppercase">
-              <a class="nav-link" href="#">discography <span class="sr-only">(current)</span></a>
+              <a class="nav-link js-scrollTo" href="#discography">discography <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item text-uppercase">
-              <a class="nav-link" href="#">concert <span class="sr-only">(current)</span></a>
+              <a class="nav-link js-scrollTo" href="#concert">concert <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item text-uppercase">
-              <a class="nav-link" href="#">latter compositions <span class="sr-only">(current)</span></a>
+              <a class="nav-link js-scrollTo" href="#latter-compositions">latter compositions <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item text-uppercase">
-              <a class="nav-link" href="#">new tracks <span class="sr-only">(current)</span></a>
+              <a class="nav-link js-scrollTo" href="#new-tracks">new tracks <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item text-uppercase">
-              <a class="nav-link" href="#">upcoming events <span class="sr-only">(current)</span></a>
+              <a class="nav-link js-scrollTo" href="#upcoming-events">upcoming events <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item text-uppercase">
-              <a class="nav-link" href="#">history <span class="sr-only">(current)</span></a>
+              <a class="nav-link js-scrollTo" href="#history">history <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item text-uppercase">
-              <a class="nav-link" href="#">contact <span class="sr-only">(current)</span></a>
+              <a class="nav-link js-scrollTo" href="#contact">contact <span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
@@ -95,13 +95,13 @@
       <!-- container-fluid -->
       <div class="container-fluid">
         <!--  -->
-        <div class="row">
+        <div id="about" class="row">
           <div class="dj"></div>
         </div>
         <!--  -->
 
-        <!--  -->
-        <div class="row justify-content-center">
+        <!-- Discography -->
+        <div id="discography" class="row justify-content-center">
           <div class="title text-center">
             <h2 class="text-uppercase">discography</h2>
             <h6 class="details font-weight-light">September 4 world heard Night Visions, the first full album. He reached the 2 position in 
@@ -109,9 +109,7 @@
             4th in the Billboard Alternative and Billboard Rock, and now went platinum.</h6>
           </div>
         </div>
-        <!--  -->
 
-        <!--  -->
         <div class="row mt-5">
           <div class="wrap col-12 col-md-12 col-lg-10 mx-auto">
             <div class="inner-wrap d-flex justify-content-between align-items-start my-3">
@@ -181,10 +179,10 @@
             <img src="img/bg.png" class="img-fluid" alt="">
           </div>
         </div>
-        <!--  -->
+        <!-- /Discography -->
         
-        <!--  -->
-        <div class="row justify-content-center">
+        <!-- Concert Tours -->
+        <div id="concert" class="row justify-content-center">
           <div class="title text-center">
             <h2 class="text-uppercase">concert tours</h2>
             <h6 class="details font-weight-light">Before the release of Night Visions, Imagine Dragons made appearances on American radio and television to 
@@ -192,9 +190,7 @@
             on the July 16, 2012 airing of NBC late-night talk show The Tonight Show with Jay Leno"</h6>
           </div>
         </div>
-        <!--  -->
 
-        <!--  -->
         <div class="row">
           <div class="concert mt-5 d-flex justify-content-center align-items-start flex-column">
             <div class="d-flex flex-column align-items-start offset-lg-2 offset-md-2 offset-1">
@@ -214,22 +210,20 @@
             </div>
           </div>
         </div>
-        <!--  -->
+        <!-- /Concert Tours -->
 
-        <!--  -->
-        <div class="row justify-content-center">
+        <!-- Latter Compositions -->
+        <div id="latter-compositions" class="row justify-content-center">
           <div class="title text-center">
-            <h2 class="text-uppercase">latter compositions</h2>
+            <h2 class="text-uppercase latter-title">latter compositions</h2>
             <h6 class="details font-weight-light">"It's Time" was released as the lead single from Continued Silence and It's Time, both 
               extended plays preceding Night Visions' release.</h6>
           </div>
         </div>
-        <!--  -->
 
-        <!--  -->
         <div class="row my-4">
           <div class="wrap-container bg-light p-0 d-flex justify-content-between align-items-center col-12 col-md-12 col-lg-10 mx-auto">
-            <div class="playlist hvr-bubble-right col-12 col-md-6 col-lg-6">
+            <div class="playlist col-12 col-md-6 col-lg-6">
               <span>03.04.2015</span>
               <hr>
               <span class="font-weight-bold text-uppercase">indian sammer</span>
@@ -256,15 +250,13 @@
             </div>
           </div>
         </div>
-        <!--  -->
 
-        <!--  -->
         <div class="row my-4">
           <div class="wrap-container bg-light p-0 d-flex justify-content-between align-items-center col-12 col-md-12 col-lg-10 mx-auto">
             <div class="video p-0 col-12 col-md-6 col-lg-6 embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/dmNYeR9akIQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <div class="playlist hvr-bubble-right col-12 col-md-6 col-lg-6">
+            <div class="playlist col-12 col-md-6 col-lg-6">
               <span>03.04.2015</span>
               <hr>
               <span class="font-weight-bold text-uppercase">indian sammer remix</span>
@@ -287,12 +279,10 @@
             </div>
           </div>
         </div>
-        <!--  -->
 
-        <!--  -->
         <div class="row my-4">
           <div class="wrap-container bg-light p-0 d-flex justify-content-between align-items-center col-12 col-md-12 col-lg-10 mx-auto">
-            <div class="playlist hvr-bubble-right col-12 col-md-6 col-lg-6">
+            <div class="playlist col-12 col-md-6 col-lg-6">
               <span>03.04.2015</span>
               <hr>
               <span class="font-weight-bold text-uppercase">chill nation</span>
@@ -318,10 +308,10 @@
             </div>
           </div>
         </div>
-        <!--  -->
+        <!-- /Latter Compositions -->
       
         <!-- Swiper -->
-        <div class="row">
+        <div id="new-tracks" class="row">
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide bg-slider text-white">
@@ -464,12 +454,12 @@
         </div>
         <!--  -->
 
-        <!--  -->
-        <div class="row">
+        <!-- Up Coming -->
+        <div id="upcoming-events" class="row">
           <div class="up-coming">
             <img src="img/upcoming-bg.png" alt="Norway">
             <div class="top-left">
-              <h2 class="text-uppercase">upcoming events</h2>
+              <h2 class="text-uppercase upcoming-title">upcoming events</h2>
               <div class="smoke">
                 <h6>Smoke + Mirrors Tour</h6>
                 <hr>
@@ -492,13 +482,13 @@
             </div>
           </div>
         </div>
-        <!--  -->
+        <!-- /Up Coming -->
 
-        <!--  -->
-        <div class="row align-items-center justify-content-center">
+        <!-- History -->
+        <div id="history" class="row align-items-center justify-content-center">
           <div class="time-band">
             <div class="title text-center my-5">
-              <h2 class="text-uppercase">history</h2>
+              <h2 class="text-uppercase history-title">history</h2>
               <h6 class="details font-weight-light">In 2008, lead singer Dan Reynolds met drummer Andrew Tolman at Brigham Young University where 
                 they were both students.Tolman recruited longtime high school friend Daniel Wayne "Wing" Sermon, 
                 who had graduated from Berklee College of Music
@@ -526,19 +516,19 @@
           </p>
           </div>
         </div>
-        <!--  -->
+        <!-- /History -->
 
-        <!--  -->
-        <div class="row">
+        <!-- Contact -->
+        <div id="contact" class="row">
           <div class="contact">
             <img src="img/contact-bg.png" alt="History BG">
-            <div class="top-right title text-center my-5">
+            <div class="top-right title text-center my-5 col-12 col-md-6 col-lg-4">
               <h2 class="text-uppercase">contact</h2>
               <h6 class="details font-weight-light text-left">Canada Island, Division No. 23, Unorganized, MB, Canada
                 Tel. +1(778) 288 5180
               </h6>
 
-              <div class="d-flex justify-content-between">
+              <div class="d-flex justify-content-between wrap-inner">
                 <form class="col-12 pl-0">
                   <div class="form-group">
                     <input type="text" class="form-control border-top-0 border-left-0 border-right-0 rounded-0 pl-0" id="exampleInputName1" placeholder="Name">
@@ -549,21 +539,19 @@
                   <div class="form-group">
                     <input type="text" class="form-control border-top-0 border-left-0 border-right-0 rounded-0 pl-0" id="exampleInputMessage1" placeholder="Message">
                   </div>
-                  <button type="submit" class="btn btn-outline-primary border-0 font-weight-bold text-uppercase text-dark">send</button>
+                  <button type="submit" class="btn btn-outline-primary font-weight-bold text-uppercase text-dark btn-contact">send</button>
                 </form>
 
-                <div class="social-media d-flex pl-3 flex-column align-items-center justify-content-around border-left">
+                <div class="social-media d-flex pl-3 flex-column align-items-center justify-content-around">
                   <a href="" class="text-dark"><i class="fab fa-facebook-f"></i></a>
                   <a href="" class="text-dark"><i class="fab fa-instagram"></i></a>
                   <a href="" class="text-dark"><i class="fab fa-twitter"></i></a>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
-        <!--  -->
-
+        <!-- /Contact -->
       </div>
       <!-- container-fluid -->
     </main>
@@ -611,6 +599,34 @@
           enabled: true,
         }
       });
+    </script>
+    <!-- scroll animation -->
+    <script>
+      $(document).ready(function() {
+        $('.js-scrollTo').on('click', function() { // Au clic sur un élément
+          var page = $(this).attr('href'); // Page cible
+          var speed = 1000; // Durée de l'animation (en ms)
+          $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+          return false;
+        });
+      });
+    </script>
+    <!-- Header Background -->
+    <script>
+    $(function() {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+          $('header').addClass('changeColor')
+          $('li a').addClass('nav-linkColor')
+          $('nav').css("padding", "0");
+        } 
+        if ($(this).scrollTop() < 50) {
+          $('header').removeClass('changeColor')
+          $('li a').removeClass('nav-linkColor')
+          $('nav').css("padding", ".5rem 1rem");
+        } 
+    });
+  });
     </script>
   </body>
 </html>

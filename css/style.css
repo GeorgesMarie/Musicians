@@ -3,8 +3,24 @@ body {
 }
 /* - header - */
 header {
-	background-color: rgba(0, 0, 0, .1);
+	background-color: rgba(0, 0, 0, .3);
+	transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+	-ms-transition: 0.3s all;
+	-o-transition: 0.3s all;
 }
+.changeColor {
+	background-color: rgba(0, 0, 0, .8);
+	transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+	-ms-transition: 0.3s all;
+	-o-transition: 0.3s all;
+ }
+ .nav-linkColor {
+	 color:rgb(255, 255, 255) !important;
+ }
 /* - /header - */
 /* - */
 .dj {
@@ -12,6 +28,8 @@ header {
 	height: 100vh;
 	background-image: url("../img/dj.png");
 	background-repeat: no-repeat;
+	-o-background-size: cover;
+	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -20,6 +38,7 @@ header {
 
 /* - */
 h2 {
+	margin-top: 35px;
 	color: #996b4f;
 	position: relative;
 }
@@ -30,12 +49,24 @@ h2::before {
     left: 29%;
     width: 40%;
 	height: 2px;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, .5);
 }
-h2:hover::before {
-	width: 50%;
-	left: 24%;
+.latter-title::before {
+	content: "";
+    left: 15%;
+    width: 70%;
 }
+.upcoming-title::before {
+	content: "";
+    left: -5%;
+    width: 60%;	
+}
+.history-title::before {
+	content: "";
+    left: 44%;
+    width: 12%;
+}
+
 .details {
 	white-space: pre-line;
 }
@@ -231,5 +262,19 @@ h5 {
     position: absolute;
     top: 20%;
     right: 20%;
+}
+form input:focus {
+	outline: none !important;
+}
+.btn-contact {
+	border-color: transparent !important;
+	padding: 7px 50px;
+}
+.btn-contact:hover {
+	border-color: transparent !important;
+	background-color: transparent !important;
+}
+.social-media {
+	border-left: 1px solid grey;
 }
 /*  */
